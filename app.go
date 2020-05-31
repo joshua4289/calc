@@ -5,5 +5,7 @@ import ("fmt"
 func main() {
 	fmt.Println("Main context starts")
 	one.One()
-
+	
+	ans1,_ := one.Divide(2,3)
+	fmt.Println(ans1)
 }
